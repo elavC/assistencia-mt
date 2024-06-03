@@ -1,0 +1,306 @@
+@media (max-width: 1500px)   {
+    section.s-about .container {
+        width: 80%;
+        gap: 120px;
+    }
+
+    section.s-cards .container {
+        width: 80%;
+    }
+}
+
+@media (max-width: 1300px)   {
+    section.s-cards .container {
+        width: 80%;
+    }
+
+    section.s-cards .card {
+        width: 250px;
+        height: 240px;
+    }
+    
+}
+
+@media (max-width: 1100px)   {
+    section.s-cards .container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    section.s-cards .card {
+        width: 300px;
+        height: 320px;
+    }
+
+    section.s-about .container .block .image img {
+        width: 300px;
+        height: 300px;
+    }
+
+    section.s-about .container {
+        width: 90%;
+    }
+
+}
+
+@media (max-width: 900px) {
+    header .logomarca {
+        margin-left: 24px;
+    }
+
+    ul .contact {
+        margin-left: 16px;
+    }
+    
+    .menu-hamburguer-elements li {
+        font-size: 1.2rem;
+    }
+
+    .shadow .wrapper {
+        margin-left: 64px;
+
+    }
+
+    .shadow .wrapper h1 {
+        font-size: 24px;
+    }
+
+    section.s-cards .container {
+        width: 100%;
+        gap: 24px;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    section.s-cards .card {
+        width: 200px;
+        height: 220px;
+    }
+
+    section.s-about .container {
+        width: 100%;
+    }
+
+    section.s-about .container .block .image img {
+        width: 280px;
+        height: 250px;
+    }
+
+    section.s-about .container .block p {
+        font-size: 20px;
+        width: 300px;
+
+    }
+
+    section.s-faq {
+        height: 130vh;
+    }
+
+
+
+}
+
+
+@media (max-width: 600px) {
+    .menu-hamburger{
+        z-index: 2;
+    }
+
+    ul .contact {
+        padding: 0 0;        
+    }
+
+}
+
+@media (max-width: 450px) {
+
+    ul .contact {
+        padding: 4px 12px;
+        margin-left: 0;
+
+    }
+
+    h2 {
+        font-size: 32px;
+    }
+    
+    header {
+        padding: 8px 0;
+    }
+    
+    section.s-cards {
+        padding: 64px 0;
+    }
+
+    section.s-cards .container {
+        display: grid;
+        margin: 0 auto;
+        grid-template-columns: repeat(2, 1fr);
+        width: 90%;
+        gap: 32px;
+    }
+
+    section.s-cards .card {
+        width: 160px;
+        height: 190px;
+    }
+
+    section.s-cards .card h3 {
+        text-align: center;
+        font-size: 16px;
+        width: 160px;
+        border-radius: 0;
+    }
+
+    .s-hero {
+        height: 50vh;
+    }
+
+    .s-hero .container .responsive-hidden {
+        display: none;
+    }
+
+    .shadow {
+        width: 100%;
+        height: 70vh;
+        z-index: 1;
+        position: absolute;
+        background-image: linear-gradient(to top, black 50%, transparent);
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+        color: white;
+        bottom: 0;
+    }
+
+    .shadow h1 {
+        font-size: 32px;
+    }
+
+    .shadow .wrapper {
+        margin-left: 16px;
+        width: 90%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: end;
+        gap: 24px;
+    }
+
+    .contact-link {
+        font-size: 18px;
+        padding: 12px 32px;
+        margin: 0 auto;
+        margin-bottom: 40px;
+
+    } 
+
+    section.s-cards {
+        padding: 300px 0 64px 0;
+    }
+
+    section.s-about {
+        padding: 64px 0;
+    }
+
+    section.s-about .container {
+        width: 100%;
+        gap: 120px;
+    }
+    
+    section.s-about .container .block {
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    section.s-about .container .block .image {
+        order: 1;
+    }
+
+    section.s-about .container .block .infor {
+        order: 2;
+    }
+
+    section.s-about .container .block p {
+        text-align: center;
+    }
+    
+    section.s-about .container .block .infor {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 90%;
+    }
+
+    section.s-about .container .block .infor p {
+        width: 100%;
+    }
+
+
+    section.s-about .container .block .image {
+        width: 100%;
+        height: 350px;
+
+    }
+
+    section.s-about .container .block .image img {
+        width: 100%;
+        height: 100%;
+        border-radius: 0;
+    }    
+
+    section.s-faq .container {
+        width: 90%;
+    }
+    
+    footer img {
+        width: 100px;
+    }
+
+    footer .container .infor {
+        width: 95%;
+    }
+}
+
+@media (max-width: 375px) {
+
+    header .logomarca {
+        width: 54px;
+    }
+
+    .menu {
+        width: 40px;
+        height: 40px;
+    }
+
+    .hamburguer {
+        width: 20px;
+        height: 1px;
+        top: 20px;
+        left: 10px;
+    }
+
+    .shadow .wrapper h1 {
+        font-size: 20px;
+    }
+
+    section.s-cards .container {
+        width: 90%;
+        gap: 24px;
+    }
+
+    section.s-cards .card {
+        width: 148px;
+        height: 180px;
+    }
+
+    section.s-cards .card h3 {
+        font-size: 16px;
+        width: 148px;
+    }
+
+.contact-link {
+    width: 280px;
+    height: 60px;
+    font-size: 13px;
+    gap: 12px;
+    }
+}
